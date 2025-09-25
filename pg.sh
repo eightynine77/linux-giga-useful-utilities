@@ -2,13 +2,13 @@
 
 usage() {
     echo "Usage:"
-    echo "  $(basename "$0") <website domain>"
-    echo "  $(basename "$0") -list <file>"
+    echo "  pg <website domain>"
+    echo "  pg -list <file>"
     echo
     echo "Examples:"
-    echo "  $(basename "$0") example.com"
-    echo "  $(basename "$0") https://example.com"
-    echo "  $(basename "$0") -list list_of_sites.txt"
+    echo "  pg example.com"
+    echo "  pg https://example.com"
+    echo "  pg -list list_of_sites.txt"
     exit 1
 }
 
