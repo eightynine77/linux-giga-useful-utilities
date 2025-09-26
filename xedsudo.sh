@@ -9,4 +9,4 @@ if [ -z "$1" ]; then
     exit 1
 fi
 
-sudo xed "$1"
+sudo xed "$1" #replace xed with your preferred text editor (i.e vim, emacs, etc)
