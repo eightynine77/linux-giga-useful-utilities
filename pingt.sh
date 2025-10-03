@@ -10,14 +10,12 @@ while true; do
     echo "press [a] key to try again"
     echo "press [s] key to exit"
     echo -n "> "
-
-    # read one character only
     read -n1 choice
     echo
 
     case "$choice" in
-        a|A) continue ;;  # go back and ping again
-        s|S) break ;;     # exit
-        *) continue ;;    # ignore invalid keys and repeat
+        a|A) continue ;;  
+        s|S) break ;;     
+        *) continue ;;    
     esac
 done
